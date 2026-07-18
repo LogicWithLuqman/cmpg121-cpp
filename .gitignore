@@ -30,6 +30,25 @@
 build/
 bin/
 obj/
+Debug/
+Release/
+DebugPublic/
+ReleasePS/
+DebugPS/
+
+# Platform-specific build directories
+x64/
+x86/
+
+# Temp, log, cache, backup files
+*.tmp
+*.log
+*.cache
+*.bak
+
+# Windows system files
+Thumbs.db
+Desktop.ini
 
 # VS Code
 .vscode/*
@@ -44,6 +63,9 @@ obj/
 *.user
 *.userosscache
 *.sln.docstates
+
+# JetBrains IDEs
+.idea/
 
 # macOS
 .DS_Store
